@@ -359,7 +359,7 @@ public class CallService extends ActionBarActivity implements LocationListener {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("te:"+pphone[o]));
+                intent.setData(Uri.parse("tel:"+pphone[o]));
                 startActivity(intent);
             }
         });
