@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(getApplicationContext(),CallService.class);
-                intent.putExtra("title","Polic");
+                intent.putExtra("title","Police");
                 startActivity(intent);
             }
         });
